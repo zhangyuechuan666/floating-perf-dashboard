@@ -1,0 +1,40 @@
+app:
+  id: "7711748049634295846"
+  name: 悬浮性能仪表盘
+  slogan: 随时掌握头显运行状态，悬浮窗一眼看清性能与续航
+  description: |-
+    悬浮性能仪表盘是一款面向 PICO 头显的系统资源监视工具。它以一条轻巧的悬浮窗常驻视野，让你在使用其他应用时也能随时看到设备的运行状态。
+
+    **核心功能**
+    - **实时指标**：CPU 占用、GPU 负载（支持的设备）、网络上下行速度、电池温度与散热状态、整机功耗，以及屏幕刷新率和实测帧率，每秒刷新。
+    - **续航预估**：根据最近的平均功耗估算剩余使用时间；充电时显示充满所需时间。
+    - **详情窗口**：点击悬浮条打开，按项目查看最近 60 秒的趋势图和详细数据。
+    - **两种主题**："经典"为简洁的玻璃性能条；"表盘"把它换成六个跑车风格的 3D 指针仪表，转速表、双指针网速表、中心零位功率表等一应俱全。
+
+    **使用方式**：打开应用即出现悬浮条；点击查看详情，在详情页左上角"主题"中切换外观，选择会被记住。
+
+    **适用场景**：开发调试时观察性能、长时间使用时留意温度和电量、了解不同应用对设备的负载。
+  tags:
+    - 实用工具
+  category: application
+  icon: assets/icon.jpg
+  landscape: assets/landscape.jpg
+  detail_images:
+    - assets/detail-1.jpg
+    - assets/detail-2.jpg
+    - assets/detail-3.jpg
+    - assets/detail-4.jpg
+    - assets/detail-5.jpg
+  videos: []
+version:
+  name: V1.0.0
+  notes: 首个版本：悬浮性能条实时显示 CPU、GPU、网络、电池温度、续航与刷新率；详情窗口提供 60 秒趋势图；新增"表盘"主题，以六个跑车风格 3D 仪表替换性能条，点击任意仪表即可打开详情。
+build:
+  repo_url: https://github.com/zhangyuechuan666/floating-perf-dashboard
+  repo_visibility: public
+  tech_stack: android_spatial
+  ai_tool: Claude Code
+  ai_model: Claude Opus 5.5
+  features:
+    - none
+  teammates: []

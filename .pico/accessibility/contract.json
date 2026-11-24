@@ -1,0 +1,163 @@
+{
+  "contractVersion": 1,
+  "packageName": "com.resourceoverlay.monitor",
+  "components": [
+    {
+      "contractId": "attachment:4e493e57300c066d",
+      "semanticAnchor": "4e493e57300c066d",
+      "kind": "attachment",
+      "source": {
+        "file": "app/src/main/java/com/example/sysmonitor/pbb1c5130/content/ClusterWindow.kt",
+        "line": 341,
+        "endLine": 341,
+        "symbol": "InstrumentCluster"
+      },
+      "semanticId": "cluster.temperature",
+      "label": "Battery temperature gauge",
+      "runtimeSelector": {
+        "semanticId": "cluster.temperature"
+      },
+      "stateSources": [
+        "value"
+      ],
+      "actions": [],
+      "binding": {
+        "kind": "spatial",
+        "ownerExpression": "face",
+        "sdkComponentDeclaration": true,
+        "sdkActionRegistration": true
+      }
+    },
+    {
+      "contractId": "attachment:8ac912dbc6d65a88",
+      "semanticAnchor": "8ac912dbc6d65a88",
+      "kind": "attachment",
+      "source": {
+        "file": "app/src/main/java/com/example/sysmonitor/pbb1c5130/content/ClusterWindow.kt",
+        "line": 346,
+        "endLine": 346,
+        "symbol": "InstrumentCluster"
+      },
+      "semanticId": "cluster.network",
+      "label": "Network gauge",
+      "runtimeSelector": {
+        "semanticId": "cluster.network"
+      },
+      "stateSources": [
+        "value"
+      ],
+      "actions": [],
+      "binding": {
+        "kind": "spatial",
+        "ownerExpression": "face",
+        "sdkComponentDeclaration": true,
+        "sdkActionRegistration": true
+      }
+    },
+    {
+      "contractId": "attachment:8f2022416b321733",
+      "semanticAnchor": "8f2022416b321733",
+      "kind": "attachment",
+      "source": {
+        "file": "app/src/main/java/com/example/sysmonitor/pbb1c5130/content/ClusterWindow.kt",
+        "line": 351,
+        "endLine": 351,
+        "symbol": "InstrumentCluster"
+      },
+      "semanticId": "cluster.cpu",
+      "label": "CPU gauge",
+      "runtimeSelector": {
+        "semanticId": "cluster.cpu"
+      },
+      "stateSources": [
+        "value"
+      ],
+      "actions": [],
+      "binding": {
+        "kind": "spatial",
+        "ownerExpression": "face",
+        "sdkComponentDeclaration": true,
+        "sdkActionRegistration": true
+      }
+    },
+    {
+      "contractId": "attachment:178070a27bb8247c",
+      "semanticAnchor": "178070a27bb8247c",
+      "kind": "attachment",
+      "source": {
+        "file": "app/src/main/java/com/example/sysmonitor/pbb1c5130/content/ClusterWindow.kt",
+        "line": 356,
+        "endLine": 356,
+        "symbol": "InstrumentCluster"
+      },
+      "semanticId": "cluster.gpu",
+      "label": "GPU gauge",
+      "runtimeSelector": {
+        "semanticId": "cluster.gpu"
+      },
+      "stateSources": [
+        "value"
+      ],
+      "actions": [],
+      "binding": {
+        "kind": "spatial",
+        "ownerExpression": "face",
+        "sdkComponentDeclaration": true,
+        "sdkActionRegistration": true
+      }
+    },
+    {
+      "contractId": "attachment:e2b1aeec403bf277",
+      "semanticAnchor": "e2b1aeec403bf277",
+      "kind": "attachment",
+      "source": {
+        "file": "app/src/main/java/com/example/sysmonitor/pbb1c5130/content/ClusterWindow.kt",
+        "line": 361,
+        "endLine": 361,
+        "symbol": "InstrumentCluster"
+      },
+      "semanticId": "cluster.display",
+      "label": "Display gauge",
+      "runtimeSelector": {
+        "semanticId": "cluster.display"
+      },
+      "stateSources": [
+        "value"
+      ],
+      "actions": [],
+      "binding": {
+        "kind": "spatial",
+        "ownerExpression": "face",
+        "sdkComponentDeclaration": true,
+        "sdkActionRegistration": true
+      }
+    },
+    {
+      "contractId": "attachment:007fd227f3df0746",
+      "semanticAnchor": "007fd227f3df0746",
+      "kind": "attachment",
+      "source": {
+        "file": "app/src/main/java/com/example/sysmonitor/pbb1c5130/content/ClusterWindow.kt",
+        "line": 366,
+        "endLine": 366,
+        "symbol": "InstrumentCluster"
+      },
+      "semanticId": "cluster.power",
+      "label": "Power gauge",
+      "runtimeSelector": {
+        "semanticId": "cluster.power"
+      },
+      "stateSources": [
+        "value"
+      ],
+      "actions": [],
+      "binding": {
+        "kind": "spatial",
+        "ownerExpression": "face",
+        "sdkComponentDeclaration": true,
+        "sdkActionRegistration": true
+      }
+    }
+  ],
+  "unresolved": []
+}
